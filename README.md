@@ -1,13 +1,12 @@
-# 📚 Kiruthika Ganesan – Academic Articles Repository
+ Kiruthika Ganesan – Academic Articles Repository
 
 Welcome to my academic article collection.  
 This repository includes writing, summaries, concept explanations, and subject-based articles created during my Bachelor of Pharmacy program.
 
 The purpose of this repository is to showcase my academic understanding, literature interpretation, and ability to communicate scientific concepts clearly.
+An enthusiastic pharmacy graduate with experience in academic writing, literature review, and conceptual interpretation across pharmacology, pharmaceutics, and analytical sciences. I aim to present scientific ideas in a structured and accessible manner.** you can use in your README or article:
 
----An enthusiastic pharmacy graduate with experience in academic writing, literature review, and conceptual interpretation across pharmacology, pharmaceutics, and analytical sciences. I aim to present scientific ideas in a structured and accessible manner.** you can use in your README or article:
-
-### **I am deeply interested in nutraceutical science and biotechnology-driven healthcare innovations. My focus lies in understanding how bioactive compounds, functional foods, and emerging biotechnological approaches can support disease prevention and therapeutic development.**
+### I am deeply interested in nutraceutical science and biotechnology-driven healthcare innovations. My focus lies in understanding how bioactive compounds, functional foods, and emerging biotechnological approaches can support disease prevention and therapeutic development.
 
 ## 🔬 **Pharmacology Articles**
 ### **1. Instrumental Approaches in Neuropharmacological Screening: A
