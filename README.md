@@ -1,7 +1,16 @@
- Kiruthika Ganesan – Academic Articles 
+## 👩‍⚕️ About Me
+I am a Bachelor of Pharmacy graduate interested in:
+- Scientific writing  
+- Academic research  
+- Concept explanation  
+- Pharmacology, drug safety, and formulation sciences
+  
 
-Welcome to my academic article collection.  
-This repository includes writing, summaries, concept explanations, and subject-based articles created during my Bachelor of Pharmacy program.
+---
+
+## 📬 Contact
+- **LinkedIn:**   www.linkedin.com/in/kiruthika-ganesan-4b3839233
+- **Email:** kiruthiganesan2020@gmail.com 
 
 ### I am deeply interested in nutraceutical science and biotechnology-driven healthcare innovations. My focus lies in understanding how bioactive compounds, functional foods, and emerging biotechnological approaches can support disease prevention and therapeutic development.
 
@@ -36,19 +45,4 @@ Dostarlimab is a PD-1 monoclonal antibody that has shown remarkable clinical imp
 -  This work explores a novel Spinraza formulation using Graphene Quantum Dots (GQDs) to improve treatment outcomes in spinal muscular atrophy (SMA). By enhancing cellular uptake, bioavailability, and targeted delivery while reducing toxicity and injection burden, GQD-based Spinraza aims to overcome the major limitations of conventional therapy. The approach highlights nanotechnology’s potential to create safer, more efficient, and patient-friendly SMA treatments. 
 -  👉  [View PDF](./Spinal_muscular_atrophy_(1).doc)
 
----
-## 👩‍⚕️ About Me
-I am a Bachelor of Pharmacy graduate interested in:
-- Scientific writing  
-- Academic research  
-- Concept explanation  
-- Pharmacology, drug safety, and formulation sciences
-  
-I use this repository to document and share my academic growth.
-
----
-
-## 📬 Contact
-- **LinkedIn:**   www.linkedin.com/in/kiruthika-ganesan-4b3839233
-- **Email:** kiruthiganesan2020@gmail.com 
 
