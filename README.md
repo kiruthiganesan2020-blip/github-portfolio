@@ -1,3 +1,81 @@
+github-portfolio/
+├── index.html              ← Your main portfolio page
+├── CSS/
+│   └── styles.css          ← Custom styles and animations
+├── Images/
+│   └── poster1.png         ← Screenshots, posters, diagrams
+├── Literature_Reviews/
+│   └── review1.pdf
+├── Posters_&_Presentations/
+│   └── poster1.pdf
+├── Research_Summaries/
+│   └── summary1.md
+└── README.md               ← Overview of your portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiruthiga’s Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__fadeInDown">Kiruthiga Ganesan</h1>
+        <p class="animate__animated animate__fadeIn">Pharmacy & Biomedical Research Portfolio</p>
+    </header>
+
+    <section id="literature-reviews">
+        <h2 class="animate__animated animate__fadeInLeft">Literature Reviews</h2>
+        <ul>
+            <li><a href="Literature_Reviews/review1.pdf">Review 1</a></li>
+        </ul>
+    </section>
+
+    <section id="posters">
+        <h2 class="animate__animated animate__fadeInRight">Posters & Presentations</h2>
+        <img src="Images/poster1.png" alt="Poster 1" width="400" class="animate__animated animate__zoomIn">
+    </section>
+
+    <section id="research-summaries">
+        <h2 class="animate__animated animate__fadeInLeft">Research Summaries</h2>
+        <ul>
+            <li><a href="Research_Summaries/summary1.md">Summary 1</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/kiruthiganesan2020/">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header, section, footer {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ## 👩‍⚕️ About Me
 I am a Bachelor of Pharmacy graduate interested in:
 - Scientific writing  
