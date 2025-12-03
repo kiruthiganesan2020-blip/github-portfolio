@@ -255,11 +255,7 @@ Want to see more? I've written extensively on pharmaceutical topics ranging from
 
 *All publications available in this repository with business context annotations.*
 
----
 
-
-
-**Immediate availability:** [Your timeline]
 
 ---
 
