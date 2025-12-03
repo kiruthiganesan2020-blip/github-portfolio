@@ -4,7 +4,7 @@
 > Bridging pharmaceutical science and business impact through data-driven problem-solving
 
 [![Email](https://img.shields.io/badge/Email-kiruthiganesan2020@gmail.com-red)](mailto:kiruthiganesan2020@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](www.linkedin.com/in/kiruthika-ganesan-4b3839233)
 
 ---
 
@@ -19,7 +19,7 @@ B.Pharm graduate specializing in **pharmaceutical process optimization** and **a
 
 **Current Focus:**
 - 🏆 Competing in **Novartis NEST 2.0 Innovation Challenge** (Analytical Method Development)
-- 🔬 Advancing expertise in pharmaceutical quality systems and CMC strategy
+- 🔬 Advancing expertise in pharmaceutical quality systems 
 - 💼 Exploring pharmaceutical consulting opportunities in process optimization and regulatory affairs
 
 ---
@@ -27,7 +27,7 @@ B.Pharm graduate specializing in **pharmaceutical process optimization** and **a
 ## 🎯 Featured Projects
 
 ### 🏆 [Hybrid Mass Balance Model for Forced Degradation Studies](./NEST-Mass-Balance-Project.md)
-**Novartis NEST 2.0 Innovation Challenge | Solo Researcher**
+  Innovation Challenge | Solo Researcher
 
 **The Problem:** Mass balance calculations in pharmaceutical stability studies frequently fall outside regulatory acceptance criteria (95-105%), delaying drug approvals and costing companies millions in submission delays.
 
@@ -178,8 +178,8 @@ Understanding of pharmaceutical compliance requirements and quality frameworks:
 ## 🎓 Education & Achievements
 
 **Bachelor of Pharmacy (B.Pharm)**  
-*[JKK MUNIRAJAH INSTITUTE OF HEALTH SCIENCES,COLLEGE OF PHARMACY]*  
-*Graduated: [2026]*
+*JKK MUNIRAJAH INSTITUTE OF HEALTH SCIENCES,COLLEGE OF PHARMACY*  
+*Graduated: 2026*
 
 **Key Academic Projects:**
 - Forced degradation studies and analytical method development
@@ -226,7 +226,7 @@ I'm interested in opportunities at the intersection of pharmaceutical science an
 ```
 Technical Expertise          Business Acumen              Consulting Skills
 ─────────────────────       ──────────────────           ─────────────────
-✓ HPLC/LC-MS                ✓ ROI Analysis               ✓ Root-Cause Analysis
+✓ HPLC                      ✓ ROI Analysis               ✓ Root-Cause Analysis
 ✓ Method Validation         ✓ Cost-Benefit Modeling      ✓ Process Mapping  
 ✓ Stability Testing         ✓ Process Optimization       ✓ Stakeholder Mgmt
 ✓ Formulation Dev           ✓ KPI Development            ✓ Executive Comms
@@ -257,12 +257,7 @@ Want to see more? I've written extensively on pharmaceutical topics ranging from
 
 ---
 
-## 🚀 Current Status
 
-**Actively seeking:**
-- Full-time roles in pharmaceutical consulting, quality/CMC, or analytical R&D
-- Internship opportunities at consulting firms (ZS Associates, IQVIA, L.E.K., specialty pharma consultancies)
-- Collaborative projects bridging pharmaceutical science and business strategy
 
 **Immediate availability:** [Your timeline]
 
@@ -278,4 +273,4 @@ Want to see more? I've written extensively on pharmaceutical topics ranging from
 
 ---
 
-*Last Updated: December 2024*
+
