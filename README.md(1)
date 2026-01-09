@@ -1,0 +1,14 @@
+# 🧬 Enzyme Kinetics Visualizer
+
+A professional simulation tool to model drug-enzyme interactions.
+
+## 🚀 [CLICK HERE FOR LIVE DEMO](https://kiruthiganesan2020-blip.github.io/Enzyme-Kinetics-Visualiser/)
+
+## 🛠 Features
+- **Real-time Modeling:** Competitive, Non-competitive, and Uncompetitive inhibition.
+- **Drug Presets:** Includes Lisinopril, Simvastatin, and Aspirin data.
+- **Analytical Charts:** Dynamic Michaelis-Menten and Lineweaver-Burk plots.
+
+## 📅 Final Round Roadmap
+- Adding CSV data parsing for experimental results.
+- Expanding Lineweaver-Burk plots to show negative x-axis intercepts.
