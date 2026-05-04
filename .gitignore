@@ -1,7 +1,10 @@
 # Large data files
 *.csv
-*.json
 *.parquet
+
+# Allow package.json files
+!package.json
+!package-lock.json
 
 # Node modules
 node_modules/

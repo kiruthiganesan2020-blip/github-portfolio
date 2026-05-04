@@ -18,12 +18,11 @@ export default function Home() {
     try {
       const response = await axios.post("http://localhost:8000/recommend", {
         ...prefs,
-        top_n: 5,
-        model_name: "models/gemini-3-flash-preview"
+        top_n: 5
       });
       setRecommendations(response.data.recommendations);
     } catch (err: any) {
-      setError("Failed to fetch recommendations. Please ensure the backend is running at http://localhost:8000");
+      setError("Failed to fetch recommendations. Please ensure backend is running at http://localhost:8000");
       console.error(err);
     } finally {
       setIsLoading(false);

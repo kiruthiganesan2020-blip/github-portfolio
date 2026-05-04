@@ -1,8 +1,8 @@
 pandas
 python-dotenv
 datasets
-streamlit
 google-generativeai
 fastapi
-uvicorn
+uvicorn[standard]
 requests
+psycopg2-binary

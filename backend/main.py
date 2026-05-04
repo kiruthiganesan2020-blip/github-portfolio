@@ -1,4 +1,5 @@
 import logging
+import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -20,9 +21,11 @@ app = FastAPI(
 )
 
 # Enable CORS for frontend integration
+# For production: allow specific Vercel domain
+frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace "*" with specific frontend domains
+    allow_origins=[frontend_url, "https://your-vercel-app.vercel.app", "*"],  # Allow Vercel in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -73,5 +76,7 @@ async def recommend(prefs: UserPreferences):
         )
 
 if __name__ == "__main__":
-    # Use string reference for proper hot-reloading
-    uvicorn.run("backend.main:app", host="0.0.0.0", port=8000, reload=True)
+    # Render uses PORT environment variable
+    port = int(os.getenv("PORT", 8000))
+    # Use string reference for proper hot-reloading in development
+    uvicorn.run("backend.main:app", host="0.0.0.0", port=port, reload=True)

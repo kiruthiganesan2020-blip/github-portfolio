@@ -152,16 +152,16 @@ Measure recommendation quality and improve model behavior over time.
 
 ---
 
-## Phase 7: Streamlit Deployment and Production Interface
+## Phase 7: Production Deployment with Render + Vercel
 
 ### Goal
-Deploy the AI-powered restaurant recommendation system as an interactive web application using Streamlit for real-time user interaction.
+Deploy the AI-powered restaurant recommendation system with separate backend and frontend deployments for optimal performance and scalability.
 
 ### Core Components
-- **Streamlit Web Interface**: Interactive UI with input forms and result display
-- **Session State Management**: Handle user preferences and conversation history
-- **Real-time Processing**: Connect backend logic to frontend interface
-- **Configuration Management**: Environment variables and API key handling
+- **Next.js Frontend**: Modern React-based web interface with input forms and result display
+- **FastAPI Backend**: Production-ready API service deployed on Render
+- **CORS Configuration**: Secure cross-origin communication between services
+- **Environment Management**: Separate environment variables for production deployments
 - **Error Handling and User Feedback**: Graceful error display and loading states
 
 ### Key Features
@@ -174,27 +174,29 @@ Deploy the AI-powered restaurant recommendation system as an interactive web app
 - **Modern UI**: Premium design with Inter and Playfair Display fonts, gradient backgrounds
 
 ### Key Tasks
-- Set up Streamlit application structure
-- Create interactive input widgets (dropdowns, sliders, text inputs)
-- Integrate all backend phases (1-6) into Streamlit workflow
-- Implement session state for maintaining user context
+- Set up Next.js application structure with React components
+- Create interactive input forms with modern UI/UX
+- Integrate all backend phases (1-6) into Next.js workflow
+- Implement React state management for user preferences
 - Add error handling and user-friendly error messages
-- Apply modern UI design with premium fonts and gradient backgrounds
+- Apply modern UI design with Tailwind CSS and Framer Motion animations
 - Remove complex model tuning features (hardcode optimal model selection)
-- Configure deployment settings and environment variables
+- Configure deployment settings for Render and Vercel
 
 ### Technical Implementation
-- **Streamlit Components**: `st.sidebar()` for filters, `st.columns()` for layout
-- **Caching**: Use `@st.cache_data` for dataset loading and `@st.cache_resource` for LLM client
-- **File Structure**: Separate modules for each phase, imported into main app
-- **Environment Management**: `.env` file for API keys and configuration
-- **Deployment**: Streamlit Cloud or self-hosted option
+- **Frontend**: Next.js 14 with TypeScript, Tailwind CSS, Framer Motion
+- **Backend**: FastAPI with Uvicorn server, deployed on Render
+- **Caching**: Use React state and API response caching
+- **File Structure**: Separate modules for each phase, imported into Next.js app
+- **Environment Management**: Separate `.env` files for frontend and backend
+- **Deployment**: Render for backend API, Vercel for frontend
 
 ### Deliverables
-- Fully functional Streamlit web application
-- Deployed application accessible via URL
+- Fully functional Next.js web application
+- Deployed backend API on Render
+- Deployed frontend on Vercel
 - User documentation and usage instructions
-- Configuration files for deployment
+- Configuration files for both deployment platforms
 
 ---
 
@@ -205,17 +207,20 @@ Deploy the AI-powered restaurant recommendation system as an interactive web app
 3. Filter and generate candidate restaurants  
 4. Build prompt context and call LLM  
 5. Rank and explain recommendations  
-6. Display user-friendly results  
-7. Deploy interactive Streamlit web interface  
+6. Display user-friendly results via Next.js frontend  
+7. Deploy backend API on Render and frontend on Vercel  
 8. Collect feedback and improve
 
 ---
 
 ## Recommended Tech Stack (Optional)
 
-- **Language**: Python
+- **Backend Language**: Python
+- **Frontend Language**: TypeScript/JavaScript
 - **Data Handling**: `pandas`
-- **API/UI**: `FastAPI` + Streamlit/React (optional)
-- **LLM Integration**: OpenAI-compatible client
+- **Backend API**: `FastAPI` deployed on Render
+- **Frontend UI**: `Next.js` deployed on Vercel
+- **LLM Integration**: Google Generative AI (Gemini)
+- **Styling**: Tailwind CSS + Framer Motion
 - **Storage**: SQLite/JSON for milestone scope
 - **Monitoring**: Basic logs + latency tracking
