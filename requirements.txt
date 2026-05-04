@@ -1,0 +1,8 @@
+pandas
+python-dotenv
+datasets
+streamlit
+google-generativeai
+fastapi
+uvicorn
+requests

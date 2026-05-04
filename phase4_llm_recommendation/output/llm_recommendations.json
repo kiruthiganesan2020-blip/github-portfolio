@@ -1,0 +1,63 @@
+{
+  "user_preferences": {
+    "location": "Bellandur",
+    "budget": "high",
+    "cuisine": " ",
+    "min_rating": 4.0,
+    "additional_preferences": []
+  },
+  "filter_strategy_used": "strict",
+  "candidate_count": 11,
+  "phase4_result": {
+    "model": "models/gemini-3-flash-preview",
+    "recommendation_count": 5,
+    "recommendations": [
+      {
+        "rank": 1,
+        "name": "Skylit - Citrus Hotels",
+        "reason": "Matches your high-budget preference in Bellandur with a variety of North Indian and Mughlai dishes.",
+        "rating": null,
+        "cost": 1500.0,
+        "cuisine": "North Indian, Mughlai, Mediterranean",
+        "location": "Bellandur"
+      },
+      {
+        "rank": 2,
+        "name": "Sharaab Factory",
+        "reason": "A high-budget option in Bellandur specializing in Biryani and North Indian cuisine.",
+        "rating": null,
+        "cost": 1500.0,
+        "cuisine": "Biryani, North Indian",
+        "location": "Bellandur"
+      },
+      {
+        "rank": 3,
+        "name": "Kava - Fairfield by Marriott",
+        "reason": "Premium dining experience in Bellandur offering North Indian, South Indian, and Continental options.",
+        "rating": null,
+        "cost": 1500.0,
+        "cuisine": "North Indian, South Indian, Continental",
+        "location": "Bellandur"
+      },
+      {
+        "rank": 4,
+        "name": "Flavors of India",
+        "reason": "Located in Bellandur, this restaurant fits the high-budget criteria with a diverse North Indian and Chinese menu.",
+        "rating": null,
+        "cost": 1500.0,
+        "cuisine": "Chinese, North Indian, Salad, Fast Food",
+        "location": "Bellandur"
+      },
+      {
+        "rank": 5,
+        "name": "BG's Poolside Bar & Grill",
+        "reason": "An upscale Mediterranean and Italian restaurant in Bellandur that aligns with your budget requirements.",
+        "rating": null,
+        "cost": 1600.0,
+        "cuisine": "Mediterranean, Italian, Mexican",
+        "location": "Bellandur"
+      }
+    ],
+    "safety_notes": []
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "case": {
+      "location": "Bellandur",
+      "budget": "high",
+      "cuisine": "any",
+      "min_rating": 4.0
+    },
+    "status": "PASS",
+    "latency": "21.50s",
+    "recommendations_count": 3
+  },
+  {
+    "case": {
+      "location": "Marathahalli",
+      "budget": "medium",
+      "cuisine": "North Indian",
+      "min_rating": 3.5
+    },
+    "status": "PASS",
+    "latency": "50.30s",
+    "recommendations_count": 3
+  },
+  {
+    "case": {
+      "location": "BTM",
+      "budget": "low",
+      "cuisine": "Fast Food",
+      "min_rating": 3.0
+    },
+    "status": "PASS",
+    "latency": "25.57s",
+    "recommendations_count": 3
+  }
+]

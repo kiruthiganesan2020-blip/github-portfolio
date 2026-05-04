@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Premium Color System */
+    --background: #FAFAFA;
+    --foreground: #1A1A1A;
+    --primary-red: #CB202D;
+    --surface: #FFFFFF;
+  }
+
+  body {
+    @apply antialiased text-[#1A1A1A] bg-[#FAFAFA];
+    font-feature-settings: "rlig" 1, "calt" 1;
+    scroll-behavior: smooth;
+  }
+
+  /* Improve typography defaults for hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-semibold text-balance;
+  }
+}
+
+@layer utilities {
+  /* Fix text balance cross-browser compatibility */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Premium Glassmorphism */
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/50 shadow-[0_4px_24px_-4px_rgba(0,0,0,0.06)];
+  }
+
+  /* Clean, Interactive Cards */
+  .premium-card {
+    @apply bg-white rounded-2xl border border-black/[0.04] shadow-sm transition-all duration-300 ease-out;
+  }
+  
+  .premium-card:hover {
+    @apply -translate-y-[2px] shadow-[0_12px_32px_-4px_rgba(0,0,0,0.08)];
+  }
+
+  /* Subdued and elegant gradients */
+  .bg-gradient-premium {
+    @apply bg-gradient-to-b from-[#FAFAFA] to-[#F3F4F6];
+  }
+  
+  /* Smooth micro-interactions */
+  .btn-transition {
+    @apply transition-all duration-200 ease-out active:scale-[0.98];
+  }
+}

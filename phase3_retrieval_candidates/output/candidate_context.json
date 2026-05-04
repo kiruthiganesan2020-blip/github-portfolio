@@ -1,0 +1,156 @@
+{
+  "user_preferences": {
+    "location": "Bellandur",
+    "budget": "high",
+    "cuisine": " ",
+    "min_rating": 4.0,
+    "additional_preferences": []
+  },
+  "filter_strategy_used": "strict",
+  "candidate_count": 11,
+  "candidates": [
+    {
+      "name": "Skylit - Citrus Hotels",
+      "location": "Bellandur",
+      "cuisine": "North Indian, Mughlai, Mediterranean",
+      "cost": 1500.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "Sharaab Factory",
+      "location": "Bellandur",
+      "cuisine": "Biryani, North Indian",
+      "cost": 1500.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "Kava - Fairfield by Marriott",
+      "location": "Bellandur",
+      "cuisine": "North Indian, South Indian, Continental",
+      "cost": 1500.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "Flavors of India",
+      "location": "Bellandur",
+      "cuisine": "Chinese, North Indian, Salad, Fast Food",
+      "cost": 1500.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "BG's Poolside Bar & Grill",
+      "location": "Bellandur",
+      "cuisine": "Mediterranean, Italian, Mexican",
+      "cost": 1600.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "The Irish House",
+      "location": "Bellandur",
+      "cuisine": "European, American",
+      "cost": 1700.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "Nook - Aloft Bengaluru Cessna Business Park",
+      "location": "Bellandur",
+      "cuisine": "North Indian, Continental, Asian",
+      "cost": 1800.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "Chili's American Grill & Bar",
+      "location": "Bellandur",
+      "cuisine": "American, Tex-Mex, Burger, BBQ",
+      "cost": 1800.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "Bombay Brasserie",
+      "location": "Bellandur",
+      "cuisine": "Modern Indian",
+      "cost": 1800.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "W XYZ Bar - Aloft Bengaluru Cessna Business Park",
+      "location": "Bellandur",
+      "cuisine": "Finger Food, North Indian",
+      "cost": 2000.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    },
+    {
+      "name": "MoMo Cafe - Courtyard by Marriott",
+      "location": "Bellandur",
+      "cuisine": "Asian, North Indian, South Indian, Momos",
+      "cost": 2000.0,
+      "rating": null,
+      "score": 0.85,
+      "match_notes": [
+        "location_match",
+        "cuisine_match",
+        "budget_match"
+      ]
+    }
+  ]
+}
