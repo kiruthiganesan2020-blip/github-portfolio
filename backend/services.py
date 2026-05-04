@@ -67,7 +67,6 @@ def get_recommendations_service(
     cuisine: str,
     min_rating: float,
     additional_preferences: Optional[List[str]] = None,
-    model_name: str = "models/gemini-3-flash-preview",
     top_n: int = 5
 ) -> Dict[str, Any]:
     """
@@ -118,7 +117,7 @@ def get_recommendations_service(
 
     safety_notes = []
     try:
-        raw_text = _call_llm_with_retries(prompt, model_name=model_name, max_retries=2)
+        raw_text = _call_llm_with_retries(prompt, model_name="models/gemini-3-flash-preview", max_retries=2)
         parsed = _extract_json_object(raw_text)
         raw_recommendations = parsed.get("recommendations", [])
         

@@ -36,7 +36,6 @@ class UserPreferences(BaseModel):
     
     # Fix mutable default by using default_factory
     additional_preferences: List[str] = Field(default_factory=list, description="Optional special features")
-    model_name: str = Field(default="models/gemini-3-flash-preview", description="LLM model identifier")
     top_n: int = Field(default=5, gt=0, le=20, description="Number of recommendations to retrieve")
 
 @app.get("/health", tags=["System"])
@@ -59,7 +58,6 @@ async def recommend(prefs: UserPreferences):
             cuisine=prefs.cuisine,
             min_rating=prefs.min_rating,
             additional_preferences=prefs.additional_preferences,
-            model_name=prefs.model_name,
             top_n=prefs.top_n
         )
         
